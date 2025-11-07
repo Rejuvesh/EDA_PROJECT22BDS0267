@@ -54,4 +54,40 @@ The main target variable I focused on was **`score`**, which represents the over
 5. **Clustering (Module 5)**  
    - Applied **Agglomerative Hierarchical Clustering**.  
    - Formed **3 clusters of students**: high achievers, medium performers, and low performers.  
-   - Visualized with a dendrogram and a cluster vs score boxplot.  
+   - Visualized with a dendrogram and a cluster vs score boxplot.
+  
+# Phase 3 – Dimensionality Reduction and Model Evaluation
+
+## Project Overview
+In this phase, I focused on applying **PCA (Principal Component Analysis)** to reduce the dataset’s dimensions, building **regression models**, and evaluating their performance.
+
+---
+
+## Steps Performed
+
+1. **Dimensionality Reduction (PCA):**  
+   - Reduced features while retaining 95% of the data variance.  
+   - Visualized data in 2D using the first two principal components.
+
+2. **Model Building:**  
+   - Built two regression models – **Linear Regression** and **Random Forest Regressor**.  
+   - Used 80% of the data for training and 20% for testing.
+
+3. **Model Evaluation:**  
+   - Compared models using **R²**, **RMSE**, and **MAE** metrics.  
+   - Linear Regression performed the best with R² = 0.39.  
+   - Random Forest performed slightly lower, indicating mostly linear relationships in data.
+
+---
+
+## Key Insights
+- PCA reduced complexity while maintaining major data patterns.  
+- Linear Regression (without PCA) gave the most accurate predictions.  
+- Actual vs Predicted plots showed a clear positive trend between predicted and true scores.
+
+---
+
+## Conclusion
+Phase 3 helped me understand how dimensionality reduction and regression modeling work together.  
+I learned how to evaluate models and identify the best-performing one for predicting student performance.
+
